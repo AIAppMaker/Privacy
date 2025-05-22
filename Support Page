@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Assistant Support</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; color: #333; }
+    header, section { margin-bottom: 2em; }
+    h1, h2, h3 { color: #0077cc; }
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .faq dt { font-weight: bold; margin-top: 1em; }
+    .faq dd { margin-left: 1em; }
+    pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Travel Assistant Support</h1>
+    <p>Welcome to the Travel Assistant support page. Here you’ll find everything you need to get help, troubleshoot common issues, and learn more about how our app works.</p>
+  </header>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>For all support inquiries, feature requests, or feedback, email us at <a href="mailto:support@travelassistant.com">support@travelassistant.com</a>. We aim to respond within 24–48 hours.</p>
+  </section>
+
+  <section>
+    <h2>About Travel Assistant</h2>
+    <p>Travel Assistant uses your profile details (e.g. interests, budget, travel dates) and destination information to generate personalized itineraries via OpenAI’s API. Each itinerary is crafted specifically for you and sent directly within the app.</p>
+  </section>
+
+  <section>
+    <h2>Getting Started</h2>
+    <ol>
+      <li><strong>Install the App:</strong> Download from the App Store and open on your device.</li>
+      <li><strong>Create Your Profile:</strong> Tap “Profile” and fill in your preferences (e.g. pace, interests, dietary restrictions).</li>
+      <li><strong>Enter Trip Details:</strong> On the “New Trip” screen, add your destination, dates, and any special requests.</li>
+      <li><strong>Generate Itinerary:</strong> Tap “Create Itinerary” and wait a few seconds while we contact OpenAI and build your custom plan.</li>
+      <li><strong>View & Save:</strong> Review the itinerary, save it for offline use, or share it with friends directly from the app.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+    <dl class="faq">
+      <dt>How long does it take to generate an itinerary?</dt>
+      <dd>Most itineraries are ready within 5–15 seconds, depending on network speed.</dd>
+
+      <dt>Why do you need my profile details?</dt>
+      <dd>Your profile helps us tailor recommendations to your interests, pace, and budget, ensuring a truly personalized experience.</dd>
+
+      <dt>Is my data secure?</dt>
+      <dd>Yes. All data is transmitted over HTTPS and processed securely via OpenAI. We do not store any personal data on our servers beyond what’s needed to deliver your itinerary.</dd>
+
+      <dt>What if I don’t like the itinerary?</dt>
+      <dd>You can regenerate as many times as you like at no extra cost. Each request produces a fresh plan.</dd>
+
+      <dt>Are there any usage limits?</dt>
+      <dd>Currently there’s a daily limit of 5 itineraries per user to ensure API performance. Contact us if you need higher limits.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Troubleshooting</h2>
+    <ul>
+      <li><strong>App Crashes on Launch:</strong> Ensure you’re running iOS 14.0 or later. Try restarting your device or reinstalling the app.</li>
+      <li><strong>Itinerary Generation Fails:</strong> Check your internet connection. If issues persist, email your device log (Settings → Help → Send Logs) to our support address.</li>
+      <li><strong>Profile Not Saving:</strong> Ensure you’ve granted the app permissions to access storage. Go to <em>Settings > Travel Assistant > Permissions</em>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Privacy & Data Handling</h2>
+    <p>We respect your privacy. Your profile and trip data are only used to generate itineraries via OpenAI’s API and are not stored long‑term on our servers. For full details, see our <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel Assistant Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
